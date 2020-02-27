@@ -43,6 +43,13 @@ function viewStudentStats(id, toggle){
     else{
 	element.style.height = "0px";
 	element.style.visibility = "hidden";
+	if(id == "student_status"){
+	    document.getElementById("undergrad_select").style.visibility = "hidden";
+	    document.getElementById("undergrad_select").style.height = "0px";
+
+	    document.getElementById("grad_select").style.visibility = "hidden";
+	    document.getElementById("undergrad_select").style.height = "0px";
+	}
     }
 }
 
